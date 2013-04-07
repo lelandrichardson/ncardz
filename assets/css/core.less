@@ -1,0 +1,53 @@
+@colorMain: #0B61A4;
+@colorDark: #25567B;
+@colorDarker: #043E6B;
+@colorLight: #3F92D2;
+@colorLighter: #66A3D2;
+@fontWhite: #fefefe;
+
+header {
+  color: @fontWhite;
+}
+body {
+  background-color: @colorLight;
+}
+
+.brand {
+    text-decoration: none !important;
+}
+
+.main {
+  margin-top: 73px; //header size + 20px
+  color: @fontWhite;
+}
+.cardArea {
+  background-color: @colorDark;
+}
+.paperArea {
+  background-color: @colorDarker;
+}
+
+
+// Sortable Cards
+// -----------------------------
+
+@cardMargin: 2.127659574468085%;
+@cardWidth: 30.5%;
+.row-fluid .card {
+  background-color: @colorLighter;
+  width: @cardWidth;
+  padding: 20px;
+  margin-bottom: @cardMargin;
+
+  &:first-child {
+    margin-left: @cardMargin;;
+  }
+}
+.card {
+  &.ui-sortable-placeholder {
+    border: 1px dashed #efefef;
+    background-color: transparent;
+    visibility: visible !important;
+    padding:19px;
+  }
+}
