@@ -49,6 +49,23 @@
         }
     }
 
+
+
+
+    ko.bindingHandlers.autoGrowUntil = {
+        init: function(element, valueAccessor) {
+            var maxHeight = ko.utils.unwrapObservable(valueAccessor());
+            $(element).keyup(function(e) {
+                var $this = $(this);
+                while($this.height() < maxHeight && $this.outerHeight() < this.scrollHeight + parseFloat($this.css("borderTopWidth")) + parseFloat($this.css("borderBottomWidth"))) {
+                    $this.height($this.height()+1);
+                };
+            });
+        }
+    };
+
+
+
     // template binding which clears all children before binding...
     ko.bindingHandlers.templateWithClear = {
         init: function (element, valueAccessor) {

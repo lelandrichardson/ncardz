@@ -29,6 +29,13 @@
         }
     };
 
+
+    ko.observable.fn.focusable = function(val) {
+        this.focused = ko.observable(val);
+        return this;
+    };
+
+
     // stopBinding
     ko.bindingHandlers.stopBinding = {
         init: function () {
@@ -248,12 +255,10 @@
 });
 
 
-// EXTENSIONS (no dependencies)
-// ---------------------------------------------------------------------
+//EXTENSIONS (no dependencies)
+////---------------------------------------------------------------------
 //;define(["ko"],function(ko){
-//    var unwrap = ko.utils.unwrapObservable,
-//        extend = ko.utils.extend,
-//        forEach = ko.utils.objectForEach;
+//
 //
 //
 //});

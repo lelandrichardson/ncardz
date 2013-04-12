@@ -2,7 +2,7 @@
 (function(factory) {
     if (typeof define === "function" && define.amd) {
         // AMD anonymous module
-        define(["knockout", "jquery", "jquery.ui.sortable"], factory);
+        define(["ko", "jquery", "jquery-ui"], factory);
     } else {
         // No module loader (plain <script> tag) - put directly in global namespace
         factory(window.ko, jQuery);
@@ -110,6 +110,8 @@
                 var dragItem;
                 $element.sortable(ko.utils.extend(sortable.options, {
                     start: function(event, ui) {
+                        // make sure the placeholder's height is same as elements
+                        ui.placeholder.height(ui.item.height());
                         //make sure that fields have a chance to update model
                         ui.item.find("input:focus").change();
                         if (startActual) {
@@ -218,7 +220,6 @@
                     },
                     connectWith: sortable.connectClass ? "." + sortable.connectClass : false
                 }));
-
                 //handle enabling/disabling sorting
                 if (sortable.isEnabled !== undefined) {
                     ko.computed({
@@ -256,7 +257,9 @@
         allowDrop: true,
         afterMove: null,
         beforeMove: null,
-        options: {}
+        options: {
+        }
+
     };
 
     //create a draggable that is appropriate for dropping into a sortable

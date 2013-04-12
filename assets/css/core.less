@@ -3,13 +3,47 @@
 @colorDarker: #043E6B;
 @colorLight: #3F92D2;
 @colorLighter: #66A3D2;
+@colorDull: #34495e;
+
 @fontWhite: #fefefe;
+
+@TURQUOISE:#1ABC9C;
+@GREEN_SEA:#16A085;
+
+@EMERLAND:#2ECC71;
+@NEPHRITIS:#27AE60;
+
+@PETER_RIVER:#3498DB;
+@BELIZE_HOLE:#2980B9;
+
+@AMETHYST:#9B59B6;
+@WISTERIA:#8E44AD;
+
+@WET_ASPHALT:#34495E;
+@MIDNIGHT_BLUE:#2C3E50;
+
+@SUN_FLOWER:#F1C40F;
+@ORANGE:#F39C12;
+
+@CARROT:#E67E22;
+@PUMPKIN:#D35400;
+
+@ALIZARIN:#E74C3C;
+@POMEGRANATE:#C0392B;
+
+@CLOUDS:#ECF0F1;
+@SILVER:#BDC3C7;
+
+@CONCRETE:#95A5A6;
+@ASBESTOS:#7F8C8D;
+
+
 
 header {
   color: @fontWhite;
 }
 body {
-  background-color: @colorLight;
+  background-color: @ASBESTOS;
 }
 
 .brand {
@@ -34,9 +68,9 @@ body {
 @cardMargin: 2.127659574468085%;
 @cardWidth: 30.5%;
 .row-fluid .card {
-  background-color: @colorLighter;
+  background-color: @WET_ASPHALT;
+  border-radius: 3px;
   width: @cardWidth;
-  padding: 20px;
   margin-bottom: @cardMargin;
 
   &:first-child {
@@ -44,10 +78,219 @@ body {
   }
 }
 .card {
+  border: 1px solid transparent;
   &.ui-sortable-placeholder {
     border: 1px dashed #efefef;
     background-color: transparent;
     visibility: visible !important;
-    padding:19px;
+    display: block;
+  }
+
+  .stripe {
+    min-height: 30px;
+  }
+  .bottom-bar {
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+  .note {
+    padding:20px;
+  }
+
+}
+
+.drop-zone {
+  min-height: 400px;
+}
+
+.navbar-search .search-query {
+  border:none;
+  margin-top:4px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.clearEdit {
+  background: rgba(0, 0, 0, 0);
+  color: @fontWhite;
+  border: none;
+  padding: 0;
+  margin: 0;
+  resize: none;
+  display: block;
+  width: 100%;
+  outline: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+// TAG AUTOCOMPLETE
+// ----------------------------------------------
+
+.tokens {
+  padding: 6px 1px 1px 6px;
+  overflow-y: auto;
+  text-align: left;
+  float:left;
+}
+
+.token-group {
+  border-radius: 4px;
+  background: #1ABC9C;
+  color: #FFF;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  padding: 6px 13px 6px 13px;
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  zoom: 1;
+  -webkit-transition: 0.14s linear;
+  -moz-transition: 0.14s linear;
+  -o-transition: 0.14s linear;
+  transition: 0.14s linear;
+  -webkit-backface-visibility: hidden;
+
+  &:hover {
+    background-color: #16A085;
+    padding-left: 18px;
+    padding-right: 8px;
+
+    .remove-token-group {
+      color: #FFF;
+      opacity: 1;
+      display: block 9;
+    }
   }
 }
+
+.remove-token-group {
+  bottom: 0;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0;
+  padding: 3px 0 3px 5px;
+  position: absolute;
+  left: 0;
+  text-align: left;
+  text-decoration: none;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  display: none	9;
+}
+
+.tag-autocomplete {
+  .placeholder {
+    color: #777;
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 0 0 0;
+  }
+
+  .dropdown {
+    background: #e3e3e3;
+    border: 1px solid #ccc;
+    margin: 12px 0px 0px 0px;
+    color:#000;
+    max-height: 300px;
+    min-width: 140px;
+    overflow-x: visible;
+    overflow-y: auto;
+    padding: 0px;
+    position: absolute;
+    z-index: 10;
+
+    li {
+      background: #f9f9f9;
+      border-bottom: 1px solid #d8d8d8;
+      font-size: 13px;
+      list-style: none;
+      margin: 0px;
+      padding: 4px;
+
+      .children-indicator {
+        float: right;
+      }
+      &.option {
+        cursor: pointer;
+      }
+      &.highlighted {
+        background: #00519d;
+        color: white;
+      }
+      &.last {
+        border-bottom: 0px;
+      }
+    }
+  }
+  .clear7282 {
+    clear: both;
+  }
+  .autocomplete-input {
+    background: transparent;
+    border: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    margin: 10px 0px;
+    outline: none;
+    padding: 0px;
+    vertical-align: middle;
+    width: 120px;
+  }
+
+  .autocomplete_internal_container {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+  }
+  .placeholder {
+    color: #777;
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 0 0 0;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
