@@ -2,37 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f912d20c-eb1c-4051-8127-44d148d4926a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/ko.extensions.autocomplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/app/vm.populatable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/ko.extensions.sortable.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/ViewModels.js" afterPath="$PROJECT_DIR$/assets/js/ViewModels.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/core.less" afterPath="$PROJECT_DIR$/assets/css/core.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/knockout-sortable.js" afterPath="$PROJECT_DIR$/assets/js/vendor/knockout-sortable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/ko.extensions.jquery.js" afterPath="$PROJECT_DIR$/assets/js/ko.extensions.jquery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/ko.extensions.js" afterPath="$PROJECT_DIR$/assets/js/ko.extensions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ncardz.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365739643897" ignored="false" />
+    <file path="/Dummy.txt" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365881972010" ignored="false" />
     <file path="/ViewModels.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365666219489" ignored="false" />
-    <file path="/main.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365670583409" ignored="false" />
+    <file path="/main.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365893632260" ignored="false" />
     <file path="/vm.populatable.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365491947219" ignored="false" />
-    <file path="/ko.extensions.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365493336014" ignored="false" />
+    <file path="/ko.extensions.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365895370582" ignored="false" />
     <file path="/ko.extensions.jquery.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365495087952" ignored="false" />
-    <file path="/index.html" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365669114504" ignored="false" />
-    <file path="/core.less" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365671450782" ignored="false" />
+    <file path="/index.html" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365894809034" ignored="false" />
+    <file path="/core.less" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365895507773" ignored="false" />
     <file path="/autocomplete-0.2.1.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365659750793" ignored="false" />
     <file path="/ko.extensions.autocomplete.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365665478856" ignored="false" />
     <file path="/app.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365664534058" ignored="false" />
     <file path="/knockout-sortable.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365670830367" ignored="false" />
+    <file path="/ko.extensions.sortable.js" changelist="f912d20c-eb1c-4051-8127-44d148d4926a" time="1365887759451" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,31 +45,44 @@
     <favorites_list name="ncardz" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42962506">
+    <splitter split-orientation="horizontal" split-proportion="0.4061372">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="75" column="15" selection-start="2914" selection-end="2914" vertical-scroll-proportion="0.0">
+                <state line="103" column="0" selection-start="4102" selection-end="4102" vertical-scroll-proportion="-9.153846">
+                  <folding>
+                    <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#0;tag#div#1;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="40" column="10" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ko.extensions.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="ko.extensions.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/js/ko.extensions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="38" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+                <state line="58" column="41" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.6338983">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="vm.populatable.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="vm.populatable.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/app/vm.populatable.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="3" selection-start="593" selection-end="593" vertical-scroll-proportion="0.48653197">
+                <state line="17" column="3" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -88,7 +95,7 @@
           <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="8" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+                <state line="18" column="31" selection-start="346" selection-end="347" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -97,17 +104,10 @@
           <file leaf-file-name="ViewModels.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/ViewModels.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="6" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="15" selection-start="502" selection-end="508" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="74" column="0" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="e#242#825#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -130,23 +130,28 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="knockout-sortable.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="knockout-sortable.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/vendor/knockout-sortable.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="226" column="32" selection-start="11019" selection-end="11019" vertical-scroll-proportion="0.49741825">
-                  <folding>
-                    <element signature="e#5495#6165#0" expanded="false" />
-                    <element signature="e#6215#10686#0" expanded="false" />
-                    <element signature="e#12493#14510#0" expanded="false" />
-                  </folding>
+                <state line="61" column="0" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="core.less" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="ko.extensions.sortable.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/js/ko.extensions.sortable.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="54" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="core.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/css/core.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="29" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+                <state line="197" column="18" selection-start="2955" selection-end="2955" vertical-scroll-proportion="0.50117373">
                   <folding />
                 </state>
               </provider>
@@ -180,17 +185,18 @@
         <option value="$PROJECT_DIR$/assets/css/core.css" />
         <option value="$PROJECT_DIR$/assets/js/vendor/knockout-sortable.min.js" />
         <option value="$PROJECT_DIR$/assets/js/app/vm.populatable.js" />
-        <option value="$PROJECT_DIR$/assets/js/ko.extensions.js" />
         <option value="$PROJECT_DIR$/assets/js/vendor/autocomplete-0.2.1.js" />
         <option value="$PROJECT_DIR$/assets/js/ko.extensions.jquery.js" />
         <option value="$PROJECT_DIR$/assets/css/autocomplete-0.2.1.css" />
         <option value="$PROJECT_DIR$/assets/js/ko.extensions.autocomplete.js" />
-        <option value="$PROJECT_DIR$/assets/js/ViewModels.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/assets/css/core.less" />
         <option value="$PROJECT_DIR$/assets/js/vendor/knockout-sortable.js" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/assets/js/ViewModels.js" />
+        <option value="$PROJECT_DIR$/assets/js/ko.extensions.sortable.js" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/ko.extensions.js" />
+        <option value="$PROJECT_DIR$/assets/css/core.less" />
       </list>
     </option>
   </component>
@@ -226,7 +232,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,28 +265,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ncardz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ncardz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,6 +324,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,17 +385,21 @@
       <created>1365315853300</created>
       <updated>1365315853300</updated>
     </task>
+    <task id="LOCAL-00001" summary="- refined drag and drop&#10;- improved styling&#10;- cleaned up some view models">
+      <created>1365739716578</created>
+      <updated>1365739716578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.090625" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.134375" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -421,6 +409,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31346577" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -485,14 +474,11 @@
     <MESSAGE value="- refined drag and drop&#10;- improved styling&#10;- cleaned up some view models" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/js/vendor/knockout-sortable.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="62" selection-start="162" selection-end="162" vertical-scroll-proportion="0.020238096" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/vendor/amplify.store.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="12" selection-start="259" selection-end="259" vertical-scroll-proportion="0.019767443" />
@@ -955,48 +941,6 @@
         <state line="69" column="63" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.48135594" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/ViewModels.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="6" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/ko.extensions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="15" selection-start="2914" selection-end="2914" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app/vm.populatable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="593" selection-end="593" vertical-scroll-proportion="0.48653197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="502" selection-end="508" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/ko.extensions.jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="97" column="0" selection-start="4107" selection-end="4107" vertical-scroll-proportion="0.0">
@@ -1004,9 +948,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/core.less">
+    <entry file="file://$PROJECT_DIR$/assets/js/app/vm.populatable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="29" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+        <state line="17" column="3" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1020,12 +964,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/vendor/knockout-sortable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="32" selection-start="11019" selection-end="11019" vertical-scroll-proportion="0.49741825">
+        <state line="61" column="0" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/ko.extensions.sortable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="54" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/ViewModels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#5495#6165#0" expanded="false" />
-            <element signature="e#6215#10686#0" expanded="false" />
-            <element signature="e#12493#14510#0" expanded="false" />
+            <element signature="e#242#825#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="346" selection-end="347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="10" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="4102" selection-end="4102" vertical-scroll-proportion="-9.153846">
+          <folding>
+            <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/ko.extensions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="41" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.6338983">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/core.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="18" selection-start="2955" selection-end="2955" vertical-scroll-proportion="0.50117373">
+          <folding />
         </state>
       </provider>
     </entry>

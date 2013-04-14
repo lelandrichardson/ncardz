@@ -110,7 +110,7 @@
                 var dragItem;
                 $element.sortable(ko.utils.extend(sortable.options, {
                     start: function(event, ui) {
-                        // make sure the placeholder's height is same as elements
+                        // LMR REVISION: make sure the placeholder's height is same as elements
                         ui.placeholder.height(ui.item.height());
                         //make sure that fields have a chance to update model
                         ui.item.find("input:focus").change();

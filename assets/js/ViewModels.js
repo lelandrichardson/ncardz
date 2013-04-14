@@ -5,7 +5,7 @@ define([
     "_",
     "amplify",
     "ko.extensions",
-    "vendor/knockout-sortable.min",
+    "sortable",
     "vendor/bootstrap.min"
 ],
 function(app,ko,$,_,amplify){
@@ -35,7 +35,7 @@ function(app,ko,$,_,amplify){
         ASBESTOS:'#7F8C8D'
     };
     
-
+    // utility methods
     var meta = function() {
         return function(){};
     };
@@ -56,11 +56,13 @@ function(app,ko,$,_,amplify){
         // initialization
         this.populate(spec);
     };
+    // static
     _.extend(app.vm.Card,{
        emptyTemplate: {
            title: 'title'
        }
     });
+    // instance functions
     _.extend(app.vm.Card.prototype, {
         populate: function(data) {
             this.body(data.body || '');
@@ -68,6 +70,18 @@ function(app,ko,$,_,amplify){
             this.source(data.source || '');
         }
     });
+
+
+
+
+
+
+
+
+
+
+
+
 
     app.vm.Main = function(spec){
         var self = this;

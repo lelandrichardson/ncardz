@@ -29,6 +29,40 @@
         }
     };
 
+    ko.bindingHandlers.editable = {
+        init: function(element, valueAccessor) {
+            var observable = valueAccessor(),
+                editor = document.createElement("textarea"),
+                span = document.createElement("span");
+
+            editor.style.display = 'none';
+            editor.classList.add("clearEdit");
+            editor.classList.add("editor");
+            element.appendChild(editor);
+            element.appendChild(span);
+
+            observable.editing = ko.observable(false);
+
+            ko.applyBindingsToNode(span, {
+                text: observable,
+                hidden: observable.editing,
+                click: function() {
+                    editor.style.width = element.offsetWidth + 'px';
+                    editor.style.height = element.offsetHeight + 'px';
+//                    editor.style.top = element.offsetTop + 'px';
+//                    editor.style.left = element.offsetLeft + 'px';
+                    observable.editing(true);
+                }
+            });
+
+            ko.applyBindingsToNode(editor,{
+                dynamicValue: observable,
+                visible: observable.editing,
+                hasfocus: observable.editing
+            });
+        }
+    };
+
 
     ko.observable.fn.focusable = function(val) {
         this.focused = ko.observable(val);

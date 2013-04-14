@@ -1,5 +1,6 @@
 require.config({
     baseUrl: "/assets/js",
+    urlArgs: "bust=" + (new Date()).getTime(),
     paths: {
         "jquery": "vendor/jquery.min",
         "jquery-ui": "vendor/jquery-ui.min",
@@ -7,7 +8,8 @@ require.config({
         "_": "vendor/underscore-min",
         "amplify": "vendor/amplify.min",
         "AutoComplete": "vendor/autocomplete-0.2.1",
-        "bootstrap": "vendor/bootstrap.min"
+        "bootstrap": "vendor/bootstrap.min",
+        "sortable": "vendor/knockout-sortable"
     },
     shim: {
         "_": {
@@ -55,6 +57,15 @@ require([
         ]
     };
     app.run(data);
+
+    $(".paperArea")
+    .on("mouseenter",".bullet",function(){
+        $(this).parents(".item").addClass("highlighted");
+    })
+    .on("mouseleave",".bullet",function(){
+        $(this).parents(".item").removeClass("highlighted");
+    });
+
 
 //    setInterval(function(){
 //        $(".card.ui-sortable-placeholder").height($(".card.ui-sortable-helper").height());

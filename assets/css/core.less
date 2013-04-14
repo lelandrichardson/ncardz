@@ -45,6 +45,10 @@ header {
 body {
   background-color: @ASBESTOS;
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .brand {
     text-decoration: none !important;
@@ -278,11 +282,92 @@ body {
 
 
 
+.paperArea {
 
 
 
+  .item {
+    position:relative;
+    padding-top:4px;
+  }
+
+  &> .children {
+    position:relative;
+  }
+  .content {
+    line-height:15px;
+
+    .editor {
+      line-height:14px;
+    }
+  }
+}
+
+.moving > .highlight,
+.highlighted > .highlight {
+  //hover color of line item
+  background: @MIDNIGHT_BLUE;
+}
+.moving > .highlight,
+.highlighted.moveHovered > .highlight {
+  background: #EEE;
+}
+
+.dropTarget {
+  display: none;
+  width: 820px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  right: -60px;
+}
+.highlight {
+  height: 100%;
+  left: -5px;
+  padding: 2px 5px 1px;
+  position: absolute;
+  top: 2px;
+  width: 100%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.editor {
+}
 
 
+
+.bullet {
+  margin-top: 1px;
+  margin-left: 1px;
+  height: 18px;
+  width: 18px;
+  color: #fff;
+  background: @colorDarker;
+  left: 50px;
+  text-indent: 5px;
+  font-size: 24px;
+  font-family: Arial;
+  line-height: 19px;
+  position: absolute;
+  z-index: 6;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -khtml-border-radius: 12px;
+  border-radius: 12px;
+
+  &:hover {
+    background-color: @ASBESTOS;
+  }
+}
+
+.item > .body {
+  margin-left: -50px;
+  padding: 0 0 0 75px;
+  position: relative;
+}
 
 
 

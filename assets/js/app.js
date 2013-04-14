@@ -5,7 +5,7 @@ define(
     "ko",
     "_",
     "amplify",
-    "vendor/knockout-sortable",
+    "sortable",
     "ko.extensions",
     "ko.extensions.jquery",
     "ko.extensions.autocomplete"

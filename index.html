@@ -71,7 +71,11 @@
 
 
 
-                    <div class="drop-zone" data-bind="sortable: {data: cards, allowDrop: true }">
+                    <div class="drop-zone" data-bind="sortable: {
+                            data: cards,
+                            allowDrop: true,
+                            options: {revert: 'valid'}
+                        }">
 
                         <div class="span card">
                             <div class="stripe clearfix">
@@ -122,10 +126,26 @@
                         </div>
                     </div>
 
-                    <ul class="drop-zone" data-bind="sortable: {data: outlineCards, allowDrop: true}">
-                            <li data-bind="text: body"></li>
+                    <div class="drop-zone children" data-bind="sortable: {data: cards, allowDrop: true}">
+                            <div class="item">
 
-                    </ul>
+                                <div class="dropTarget"></div>
+                                <div class="highlight"></div>
+                                <div class="body">
+                                    <a class="bullet">•</a>
+                                    <div class="content" data-bind="editable: body"></div>
+                                    <span class="parentArrow"></span>
+                                    <div class="tools">
+
+                                    </div>
+
+                                </div>
+                                <div class="children">
+                                    <!--//todo:-->
+                                </div>
+                            </div>
+
+                    </div>
 
                 </div>
             </section>
